@@ -33,8 +33,7 @@ const Page1 = () => {
             fontFamily: 'Montserrat',
             padding: '150px 0',
             paddingBottom: '20px',
-            lineHeight: '1.1',
-            textShadow: '2px 2px 4px rgba(0, 0, 0, 0)',
+            lineHeight: '1.1'
           }}>
             Desperta a tua vida extraordinária
             <br />
