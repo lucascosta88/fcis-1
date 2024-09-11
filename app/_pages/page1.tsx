@@ -30,6 +30,7 @@ const Page1 = () => {
           style={{
             fontSize: '48px',
             fontWeight: 'bold',
+            fontFamily: 'Montserrat',
             padding: '150px 0',
             paddingBottom: '20px',
             lineHeight: '1.1',

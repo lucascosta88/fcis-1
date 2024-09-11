@@ -2,6 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Tusker Grotesk';
+  src: url('/fonts/TuskerGrotesk-Regular.woff2') format('woff2'),
+       url('/fonts/TuskerGrotesk-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Tusker Grotesk';
+  src: url('/fonts/TuskerGrotesk-Bold.woff2') format('woff2'),
+       url('/fonts/TuskerGrotesk-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
