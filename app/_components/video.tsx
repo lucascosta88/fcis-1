@@ -2,7 +2,7 @@ import React from 'react';
 
 const Video = () => {
   return (
-    <div className='flex justify-center'>
+    <div className='flex p-52 justify-center'>
       <iframe
         width="600"
         height="400"
