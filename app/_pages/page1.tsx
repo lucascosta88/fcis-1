@@ -39,7 +39,7 @@ const Page1 = () => {
             <br />
             24 a 27 de outubro em Lisboa
           </h1>
-          <Video />
+          <Video url="https://www.youtube.com/embed/HehOc4jzHXo" />
             <div className="flex justify-center py-6">
             <Button className="rounded-xl justify-center" variant={"goldFCS"}>
                 GARANTIR MINHA VAGA
