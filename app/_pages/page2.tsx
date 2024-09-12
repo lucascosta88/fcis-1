@@ -10,7 +10,7 @@ const Page2 = () => {
           <div className="flex justify-center p-12">
             <h2 className="text-5xl text-black" 
             style={{
-                fontFamily: 'Tusker Grotesk, sans-serif',
+                 fontFamily: 'Tusker Grotesk, sans-serif',
                 textAlign: 'center',
                 fontWeight: 'bold',
             }}>
