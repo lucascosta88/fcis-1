@@ -1,3 +1,5 @@
+import Video from "../_components/video";
+
 const Page7 = () => {
     return ( 
         <div
@@ -9,10 +11,10 @@ const Page7 = () => {
         }}
         >
             <div className="flex flex-col items-center py-52">
-                <div className="flex flex-col bg-white items-center rounded-xl" style={{
+                <div className="flex flex-col bg-white items-center rounded-xl py-12" style={{
                     
                 }}>
-                <h1 className="text-3xl text-slate-800"
+                <h1 className="text-4xl text-slate-800"
                 style={{
                     fontFamily: 'Tusker Grotesk, sans-serif',
                     fontWeight: 'bold',
@@ -24,12 +26,16 @@ const Page7 = () => {
                 style={{
                     fontFamily: 'Tusker Grotesk, sans-serif',
                     fontWeight: 'bold',
-                    letterSpacing: '1.0px',
                     lineHeight: '1.2',
                 }}
-                > Método CIS</h1>
-                <div>
-
+                > MÉTODO CIS</h1>
+                <div className="flex p-5">
+                    <div className="px-5">
+                        <Video url="https://www.youtube.com/embed/HehOc4jzHXo" />
+                    </div>
+                    <div className="px-5">
+                        <Video url="https://www.youtube.com/embed/HehOc4jzHXo" />
+                    </div>
                 </div>
                 </div>
             </div>
