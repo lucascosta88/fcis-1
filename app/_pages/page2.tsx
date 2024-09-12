@@ -8,7 +8,7 @@ const Page2 = () => {
           }}>
 
           <div className="flex justify-center p-12">
-            <h2 className="text-5xl text-black" 
+            <h2 className="text-5xl py-6 text-black" 
             style={{
                  fontFamily: 'Tusker Grotesk, sans-serif',
                 textAlign: 'center',
