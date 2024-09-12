@@ -25,12 +25,9 @@ const Page5 = () => {
                     backgroundColor: 'rgba(0, 0, 200, 0.1)', // Blue color with 50% opacity
                     padding: '25px',
                     paddingTop: '50px',
-                    paddingBottom: '50px',
-                    borderRadius: '8px', 
-                    
-                    //FIX TO COMMIT:
-                    // borderTopRightRadius: '32px',
-                    // borderBottomRightRadius: '32px'
+                    paddingBottom: '50px',               
+                    borderTopRightRadius: '32px',
+                    borderBottomRightRadius: '32px'
                   }}
                 >
                     <p className="text-xl font-bold px-16">
