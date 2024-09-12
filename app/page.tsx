@@ -7,6 +7,7 @@ import Page5 from './_pages/page5';
 import Page6 from './_pages/page6';
 import Page7 from './_pages/page7';
 import Page8 from './_pages/page8';
+import Page9 from './_pages/page9';
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <Page6 />
       <Page7 />
       <Page8 />
+      <Page9 />
     </>
   );
 }
