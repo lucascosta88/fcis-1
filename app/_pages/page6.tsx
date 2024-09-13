@@ -21,19 +21,19 @@ const Page6 = () => {
                         <br/>serás capaz de...
                     </h1>
                     <p>
-                            <span className="text-[#F8A312] text-xl font-bold"> > </span> 
+                            <span className="text-[#F8A312] text-xl font-bold"> - </span> 
                             Vencer qualquer obstáculo que te impeça de viver uma vida de abundância e que 
                             <br/>te permite dar as melhores condições para quem mais amas e para ti mesmo.
                         </p>
                         
                         <p className="py-6">
-                            <span className="text-[#F8A312] text-xl font-bold"> > </span> 
+                            <span className="text-[#F8A312] text-xl font-bold"> - </span> 
                             Vencer qualquer obstáculo que te impeça de viver uma vida de abundância e que 
                             <br/>te permite dar as melhores condições para quem mais amas e para ti mesmo.
                         </p>
 
                         <p>
-                            <span className="text-[#F8A312] text-xl font-bold"> > </span> 
+                            <span className="text-[#F8A312] text-xl font-bold"> - </span> 
                             Vencer qualquer obstáculo que te impeça de viver uma vida de abundância e que 
                             <br/>te permite dar as melhores condições para quem mais amas e para ti mesmo.
                         </p>
