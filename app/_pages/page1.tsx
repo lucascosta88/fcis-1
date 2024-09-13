@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+import Link from "@/components/ui/link";
 import Video from "../_components/video";
 import React from "react";
 
@@ -41,9 +41,9 @@ const Page1 = () => {
           </h1>
           <Video url="https://www.youtube.com/embed/HehOc4jzHXo" />
             <div className="flex justify-center py-6">
-            <Button className="rounded-xl justify-center" variant={"goldFCS"}>
-                GARANTIR MINHA VAGA
-            </Button>
+            <Link href="#Payments" className="rounded-xl justify-center" variant={"goldFCS"}>
+            GARANTIR MINHA VAGA
+            </Link>
             </div>
         </div>
       </div>

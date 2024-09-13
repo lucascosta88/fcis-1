@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 const Page10 = () => {
     return ( 
-        <div
+        <div id="Payments"
         style={{
             backgroundImage: "url('/10/background.png')", // Correct path to the image
             height: '1500px',
