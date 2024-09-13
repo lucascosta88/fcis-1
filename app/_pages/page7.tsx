@@ -31,10 +31,10 @@ const Page7 = () => {
                 > MÉTODO CIS</h1>
                 <div className="flex p-5">
                     <div className="px-5">
-                        <Video url="https://www.youtube.com/embed/djucbbWDVMs" />
+                        <Video path="./videos/video2.mp4" />
                     </div>
                     <div className="px-5">
-                        <Video url="https://www.youtube.com/embed/8PO6_ljVsjo" />
+                        <Video path="./videos/video3.mp4" />
                     </div>
                 </div>
                 </div>
