@@ -11,8 +11,7 @@ const Page2 = () => {
             <h2 className="text-5xl py-6 text-black" 
             style={{
                  fontFamily: 'Tusker Grotesk, sans-serif',
-                textAlign: 'center',
-                fontWeight: 'bold',
+                textAlign: 'center'
             }}>
             4 DIAS PARA ELIMINAR MEDOS, DÚVIDAS E <br/>INCERTEZAS QUE TE PRENDEM DE VIVER A TUA VIDA<br/> EXTRAORDINÁRIA
             </h2>
