@@ -26,19 +26,20 @@ const Page1Mobile = () => {
         <div style={{ position: 'relative', zIndex: 2 }}>
           <h1 className="text-amber-500 text-center"
           style={{
-            fontSize: '48px',
+            fontSize: '28px',
             fontWeight: 'bold',
-            fontFamily: 'Montserrat',
+            fontFamily: 'Montserrat, sans-serif',
             padding: '150px 0',
             paddingBottom: '20px',
             lineHeight: '1.1'
           }}>
-            Desperta a tua vida extraordinária
-            <br />
-            24 a 27 de outubro em Lisboa
+            Desperta a tua vida 
+            <br/>extraordinária<br />
+            24 a 27 de outubro em 
+            <br/>Lisboa
           </h1>
           <Video path="./videos/Método CIS.mp4" />
-            <div className="flex justify-center py-6">
+            <div className="flex justify-center py-12">
             <Link href="#Payments" className="rounded-xl justify-center" variant={"goldFCS"} size='lg'>
             GARANTIR MINHA VAGA
             </Link>
