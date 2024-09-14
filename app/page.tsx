@@ -14,6 +14,7 @@ import Page10 from './_pages/Page10';
 import useWindowSize from './_pages/Mobile/mobileIdentifier';
 import Page1Mobile from './_pages/Mobile/page1Mobile';
 import Page2Mobile from './_pages/Mobile/page2Mobile';
+import Page3Mobile from './_pages/Mobile/page3Mobile';
 
 
 export default function Home() {
@@ -26,6 +27,7 @@ export default function Home() {
         <>
           <Page1Mobile />
           <Page2Mobile />
+          <Page3Mobile />
         </>
       ) : (
         <>
