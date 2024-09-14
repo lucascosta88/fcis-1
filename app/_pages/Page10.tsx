@@ -13,13 +13,13 @@ const Page10 = () => {
             <div className="flex justify-center">
                 
                 <div className="py-12">
-                    <h1 className=""
+                    <h1
                                 style={{
-                                    fontFamily: 'Tusker Grotesk, sans-serif',
+                                    fontFamily: 'sans-serif',
                                     fontSize: '59px',
                                     fontWeight: 'bold',
-                                    letterSpacing: '0.1px',
-                                    wordSpacing: '1px',
+                                    letterSpacing: '2.3px',
+                                    wordSpacing: '2px',
                                     lineHeight: '1.2'
                                 }}
                                 >
