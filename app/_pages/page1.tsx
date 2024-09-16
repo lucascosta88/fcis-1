@@ -4,7 +4,7 @@ import React from "react";
 
 const Page1 = () => {
     return (
-      <div
+      <div 
         style={{
           backgroundImage: "url('/01/BACKGROUND.png')", // Correct path to the image
           height: '1000px',
