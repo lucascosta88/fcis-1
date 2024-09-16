@@ -22,15 +22,7 @@ export default function Home() {
   const isMobile = size.width <= 768;
 
   return (
-    <>
-      {isMobile ? (
-        <>
-          <Page1Mobile />
-          <Page2Mobile />
-          <Page3Mobile />
-        </>
-      ) : (
-        <>
+     <>
           <Page1 />
           <Page2 />
           <Page3 />
@@ -42,7 +34,4 @@ export default function Home() {
           <Page9 />
           <Page10 />
         </>
-      )}
-    </>
-  );
 }
