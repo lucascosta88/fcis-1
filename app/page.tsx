@@ -11,16 +11,9 @@ import Page7 from './_pages/page7';
 import Page8 from './_pages/page8';
 import Page9 from './_pages/page9';
 import Page10 from './_pages/Page10';
-import useWindowSize from './_pages/Mobile/mobileIdentifier';
-import Page1Mobile from './_pages/Mobile/page1Mobile';
-import Page2Mobile from './_pages/Mobile/page2Mobile';
-import Page3Mobile from './_pages/Mobile/page3Mobile';
 
 
 export default function Home() {
-  const size = useWindowSize();
-  const isMobile = size.width <= 768;
-
   return (
      <>
           <Page1 />
