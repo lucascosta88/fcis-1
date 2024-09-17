@@ -17,6 +17,7 @@ import Page2Mobile from './_pages/page2Mobile';
 import Page3Mobile from './_pages/page3Mobile';
 import Page4Mobile from './_pages/page4Mobile';
 import Page5Mobile from './_pages/page5Mobile';
+import Page6Mobile from './_pages/page6Mobile';
 
 
 export default function Home() {
@@ -32,6 +33,7 @@ export default function Home() {
           <Page3Mobile />
           <Page4Mobile />
           <Page5Mobile />
+          <Page6Mobile />
         </>
       ) : (
         <>
