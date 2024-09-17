@@ -7,7 +7,7 @@ const Page1Mobile = () => {
     <div
         style={{
           backgroundImage: "url('/01/BACKGROUND.png')", // Correct path to the image
-          height: '680px',
+          height: '910px',
           backgroundSize: 'cover',  
           backgroundPosition: 'center' 
         }}>
