@@ -5,7 +5,7 @@ const Page10Mobile = () => {
         <div id="Payments"
         style={{
             backgroundImage: "url('/10/background.png')", // Correct path to the image
-            height: '2300px',
+            height: '1900px',
             backgroundSize: 'cover',  
             backgroundPosition: 'center' 
           }}
@@ -33,17 +33,18 @@ const Page10Mobile = () => {
                         <p>Garante teu lugar com desconto por tempo limitado</p>
                     </div>
 
-                    <div className="flex flex-col justify-between py-12">
+                    <div className="flex flex-col items-center py-12">
                     <div className="bg-white py-20 justify-center rounded-xl" style=
                     {{
-                        height: '800px'
+                        height: '600px',
+                        width: '350px'
                     }}
                     >
-                            <div className="items-center">
-                                <img src="/10/TEXT BRONZE.png">
+                            <div className="flex flex-col items-center">
+                                <img src="/10/TEXT BRONZE.png" width={'300px'}>
                                 </img>
                             </div>
-                            <div className="absolute py-32 px-12">
+                            <div className="absolute py-14 px-6">
                                     <Button className="rounded-xl justify-center py-8" size={'lg'} variant={"goldFCS"}>
                                         GARANTIR MINHA VAGA
                                     </Button>
@@ -51,10 +52,17 @@ const Page10Mobile = () => {
                         </div>
 
                         <div className="py-20">
-                        <div className="bg-white py-20 justify-center rounded-xl">
-                            <img src="/10/TEXT - DIAMOND.png" className="p-1">
-                            </img>
-                                <div className="absolute py-12 px-12">
+                        <div className="bg-white py-20 justify-center rounded-xl" style=
+                    {{
+                        height: '800px',
+                        width: '350px'
+                    }}
+                    >
+                            <div className="flex flex-col items-center">
+                                <img src="/10/TEXT - DIAMOND.png" className="p-1" width={'300px'}>
+                                </img>
+                            </div>
+                                <div className="absolute py-8 px-6">
                                     <Button className="rounded-xl justify-center py-8" size={'lg'} variant={"goldFCS"}>
                                         GARANTIR MINHA VAGA
                                     </Button>
