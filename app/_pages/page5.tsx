@@ -1,3 +1,6 @@
+import Image from 'next/image'
+
+
 const Page5 = () => {
     return ( 
         <div style={{
@@ -19,7 +22,7 @@ const Page5 = () => {
                 </h1>
             </div>
             <div className="flex justify-center items-center ">
-                <img src="/05/FOTO.png" className="p-1" width={"450px"} height={"60px"}></img>
+                <Image src="/05/FOTO.png" className="p-1" width={"450"} height={"60"} alt='Paulo Vieira' />
                 <div className=""
                 style={{
                     backgroundColor: 'rgba(0, 0, 200, 0.1)', // Blue color with 50% opacity

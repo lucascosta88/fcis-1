@@ -1,6 +1,7 @@
 import Link from "@/components/ui/link";
 import Video from "../_components/video";
 import React from "react";
+import Image from 'next/image'
 
 const Page1 = () => {
     return (
@@ -13,7 +14,7 @@ const Page1 = () => {
         }}
       >
         {/* Additional image */}
-        <img
+        <Image
           src="/01/LOGO.png" // Path to the additional image
           alt="Logo"
           style={{

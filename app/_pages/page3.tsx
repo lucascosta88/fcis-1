@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 const Page3 = () => {
     return ( 
         <div 
@@ -23,7 +25,7 @@ const Page3 = () => {
                 </h1>
             </div>
             <div className="flex justify-center">
-                <img src="/03/SEPARADORES.png" className="p-1"></img>
+                <Image src="/03/SEPARADORES.png" alt="Separador" className="p-1" />
             </div>
             <div className="flex flex-col">
             <div className="flex justify-center py-7">
@@ -56,7 +58,7 @@ const Page3 = () => {
                 <div className="flex justify-center" style={{
                     padding: '50px 0'
                 }}>
-                    <img src="/03/SEPARADORES.png"></img>
+                    <Image src="/03/SEPARADORES.png" alt='SEPARADORES'/>
                 </div>
                 
                 <div className="flex justify-center">
@@ -89,7 +91,7 @@ const Page3 = () => {
                 <div className="flex justify-center" style={{
                     padding: '50px 0'
                 }}>
-                    <img src="/03/SEPARADORES.png"></img>
+                    <Image src="/03/SEPARADORES.png" alt='SEPARADORES' />
                 </div>
 
                 <div className="flex justify-center py-7">

@@ -1,4 +1,6 @@
 import { Button } from "@/components/ui/button";
+import Image from 'next/image'
+
 
 const Page10 = () => {
     return ( 
@@ -33,8 +35,8 @@ const Page10 = () => {
                         height: '800px'
                     }}
                     >
-                            <img src="/10/TEXT BRONZE.png">
-                            </img>
+                            <Image src="/10/TEXT BRONZE.png" alt="">
+                            </Image>
                             <div className="absolute py-32 px-12">
                                     <Button className="rounded-xl justify-center py-8" size={'lg'} variant={"goldFCS"}>
                                         GARANTIR MINHA VAGA
@@ -43,8 +45,8 @@ const Page10 = () => {
                         </div>
 
                         <div className="bg-white py-20 justify-center rounded-xl">
-                            <img src="/10/TEXT - DIAMOND.png" className="p-1">
-                            </img>
+                            <Image src="/10/TEXT - DIAMOND.png" className="p-1" alt="">
+                            </Image>
                                 <div className="absolute py-12 px-12">
                                     <Button className="rounded-xl justify-center py-8" size={'lg'} variant={"goldFCS"}>
                                         GARANTIR MINHA VAGA
