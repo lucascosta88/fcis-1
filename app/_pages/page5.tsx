@@ -1,7 +1,7 @@
 const Page5 = () => {
     return ( 
         <div style={{
-            backgroundImage: "url('/05/BACKGROUND.png')", // Correct path to the image
+            backgroundImage: "url('./05/BACKGROUND.png')", // Correct path to the image
             height: '1000px',
             backgroundSize: 'cover',  
             backgroundPosition: 'center'
@@ -19,7 +19,7 @@ const Page5 = () => {
                 </h1>
             </div>
             <div className="flex justify-center items-center ">
-                <img src="/05/FOTO.png" className="p-1" width={"450px"} height={"60px"}></img>
+                <img src="./05/FOTO.png" className="p-1" width={"450px"} height={"60px"}></img>
                 <div className=""
                 style={{
                     backgroundColor: 'rgba(0, 0, 200, 0.1)', // Blue color with 50% opacity

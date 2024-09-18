@@ -1,7 +1,7 @@
 const Page5Mobile = () => {
     return ( 
         <div className='py-5' style={{
-            backgroundImage: "url('/05/BACKGROUND.png')", // Correct path to the image
+            backgroundImage: "url('./05/BACKGROUND.png')", // Correct path to the image
             height: 'flex',
             backgroundSize: 'cover',  
             backgroundPosition: 'center'
@@ -20,7 +20,7 @@ const Page5Mobile = () => {
                 </h1>
                 
                 <div>
-                    <img src="/05/FOTO.png" className="p-1" width={"350px"} height={"60px"}></img>
+                    <img src="./05/FOTO.png" className="p-1" width={"350px"} height={"60px"}></img>
                 </div>
                 <div className="py-5" style={{
                     backgroundColor: 'rgba(0, 0, 200, 0.1)', // Blue color with 50% opacity

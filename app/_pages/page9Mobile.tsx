@@ -2,7 +2,7 @@ const Page9Mobile = () => {
     return ( 
         <div 
         style={{
-            backgroundImage: "url('/09/BACKGROUND.png')", // Correct path to the image
+            backgroundImage: "url('./09/BACKGROUND.png')", // Correct path to the image
             height: '900px',
             backgroundSize: 'cover',  
             backgroundPosition: 'center'
@@ -11,7 +11,7 @@ const Page9Mobile = () => {
             <div className="flex justify-center py-[60px]">
                 <div className="flex rounded-xl"
                 style={{
-                    backgroundImage: "url('/09/Vector Smart Object.png')", // Correct path to the image
+                    backgroundImage: "url('./09/Vector Smart Object.png')", // Correct path to the image
                     height: '780px',
                     width: '1084px', 
                     backgroundSize: 'cover',  
@@ -31,7 +31,7 @@ const Page9Mobile = () => {
                             O Dia, Horário, Local
                         </h1>
                         
-                        <img src="/09/Rectangle 18.png" className="" width={'250px'}></img>
+                        <img src="./09/Rectangle 18.png" className="" width={'250px'}></img>
                         
                         <h2 className="py-4"
                         style={{
@@ -47,22 +47,22 @@ const Page9Mobile = () => {
 
                         <div className="py-5">
                             <div className="flex">
-                                <img src="/09/Layer 7.png" className="" width={'21px'} height={"21px"}></img>
+                                <img src="./09/Layer 7.png" className="" width={'21px'} height={"21px"}></img>
                                 <h1 className="px-2 text-amber-500">24 a 27 de Outubro</h1>
                             </div>
 
                             <div className="flex  py-5">
-                                <img src="/09/Layer 8.png" className="" width={'21px'} height={"21px"}></img>
+                                <img src="./09/Layer 8.png" className="" width={'21px'} height={"21px"}></img>
                                 <h1 className="px-2 text-amber-500">10h</h1>
                             </div>
 
                             <div className="flex">
-                                <img src="/09/Layer 9.png" className="" width={'21px'} height={"21px"}></img>
+                                <img src="./09/Layer 9.png" className="" width={'21px'} height={"21px"}></img>
                                 <h1 className="px-2 text-amber-500">Turma Presencial</h1>
                             </div>
                             <div className="py-8">
                                 <img 
-                                    src="/06.1/PREVIEW.png" 
+                                    src="./06.1/PREVIEW.png" 
                                     className="rounded-xl" 
                                     height={'20px'}>
                                 </img>

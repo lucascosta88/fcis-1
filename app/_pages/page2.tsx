@@ -1,7 +1,7 @@
 const Page2 = () => {
     return ( 
         <div style={{
-            backgroundImage: "url('/02/BACKGROUND.png')", // Correct path to the image
+            backgroundImage: "url('./02/BACKGROUND.png')", // Correct path to the image
             height: '500px',
             backgroundSize: 'cover',  
             backgroundPosition: 'center' 

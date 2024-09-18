@@ -2,7 +2,7 @@ const Page8 = () => {
     return ( 
         <div 
         style={{
-            backgroundImage: "url('/08/BACKGROUND.png')", // Correct path to the image
+            backgroundImage: "url('./08/BACKGROUND.png')", // Correct path to the image
             height: '1300px',
             backgroundSize: 'cover',  
             backgroundPosition: 'center' 
@@ -24,7 +24,7 @@ const Page8 = () => {
                 </h1>
             </div>
             <div className="flex justify-center">
-                <img src="/03/SEPARADORES.png" className="p-1"></img>
+                <img src="./03/SEPARADORES.png" className="p-1"></img>
             </div>
             <div className="flex flex-col">
             <div className="flex justify-center py-7">
@@ -57,7 +57,7 @@ const Page8 = () => {
                 <div className="flex justify-center" style={{
                     padding: '50px 0'
                 }}>
-                    <img src="/03/SEPARADORES.png"></img>
+                    <img src="./03/SEPARADORES.png"></img>
                 </div>
                 
                 <div className="flex justify-center">
@@ -90,7 +90,7 @@ const Page8 = () => {
                 <div className="flex justify-center" style={{
                     padding: '50px 0'
                 }}>
-                    <img src="/03/SEPARADORES.png"></img>
+                    <img src="./03/SEPARADORES.png"></img>
             </div>
 
             <div className="flex justify-center py-7">
@@ -123,7 +123,7 @@ const Page8 = () => {
                 <div className="flex justify-center" style={{
                     padding: '50px 0'
                 }}>
-                    <img src="/03/SEPARADORES.png"></img>
+                    <img src="./03/SEPARADORES.png"></img>
                 </div>
 
                 <div className="flex justify-center py-7">

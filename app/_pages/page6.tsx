@@ -2,7 +2,7 @@ const Page6 = () => {
     return ( 
         <div 
         style={{
-            backgroundImage: "url('/06/BACKGROUND.png')", // FIX: CHANCE THE BACKGROUND IMG
+            backgroundImage: "url('./06/BACKGROUND.png')", // FIX: CHANCE THE BACKGROUND IMG
             height: '1000px',
             backgroundSize: 'cover',  
             backgroundPosition: 'center'

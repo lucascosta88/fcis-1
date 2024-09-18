@@ -6,14 +6,14 @@ const Page1Mobile = () => {
   return (
     <div
         style={{
-          backgroundImage: "url('/01/BACKGROUND.png')", // Correct path to the image
+          backgroundImage: "url('./01/BACKGROUND.png')", // Correct path to the image
           height: '680px',
           backgroundSize: 'cover',  
           backgroundPosition: 'center' 
         }}>
 
         <img
-          src="/01/LOGO.png" // Path to the additional image
+          src="./01/LOGO.png" // Path to the additional image
           alt="Logo"
           style={{
             position: 'absolute',

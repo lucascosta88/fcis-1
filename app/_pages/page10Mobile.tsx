@@ -4,7 +4,7 @@ const Page10Mobile = () => {
     return ( 
         <div id="Payments"
         style={{
-            backgroundImage: "url('/10/background.png')", // Correct path to the image
+            backgroundImage: "url('./10/background.png')", // Correct path to the image
             height: '1900px',
             backgroundSize: 'cover',  
             backgroundPosition: 'center' 
@@ -41,7 +41,7 @@ const Page10Mobile = () => {
                     }}
                     >
                             <div className="flex flex-col items-center">
-                                <img src="/10/TEXT BRONZE.png" width={'300px'}>
+                                <img src="./10/TEXT BRONZE.png" width={'300px'}>
                                 </img>
                             </div>
                             <div className="absolute py-14 px-6">
@@ -59,7 +59,7 @@ const Page10Mobile = () => {
                     }}
                     >
                             <div className="flex flex-col items-center">
-                                <img src="/10/TEXT - DIAMOND.png" className="p-1" width={'300px'}>
+                                <img src="./10/TEXT - DIAMOND.png" className="p-1" width={'300px'}>
                                 </img>
                             </div>
                                 <div className="absolute py-8 px-6">

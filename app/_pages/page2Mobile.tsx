@@ -1,7 +1,7 @@
 const Page2Mobile = () => {
     return ( 
         <div style={{
-            backgroundImage: "url('/02/BACKGROUND.png')", // Correct path to the image
+            backgroundImage: "url('./02/BACKGROUND.png')", // Correct path to the image
             height: '300px',
             backgroundSize: 'cover',  
             backgroundPosition: 'center' 

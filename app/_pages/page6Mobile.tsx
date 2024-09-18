@@ -4,7 +4,7 @@ const Page6Mobile = () => {
     return ( 
         <div className="flex flex-col items-center"
         style={{
-            backgroundImage: "url('/06/BACKGROUND.png')", // FIX: CHANCE THE BACKGROUND IMG
+            backgroundImage: "url('./06/BACKGROUND.png')", // FIX: CHANCE THE BACKGROUND IMG
             height: '800px',
             backgroundSize: 'cover',
         }}>
